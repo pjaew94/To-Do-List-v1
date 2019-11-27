@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+
+
+.background {
+  background-color: rgb(138, 113, 207);
+  background-image: -webkit-linear-gradient(70deg, rgb(138, 113, 207) 40%, rgb(233, 232, 255) 40%);
+  height: 100vh;
+  text-align: center;
+}
+
+
+.container {
+  display: inline-block;
+  margin-top: 10vh;
+  width: 50vh;
+}
+
+
+.day {
+  background-color: rgb(138, 113, 207);
+  color: rgb(233, 232, 255);
+  padding: 5% 10%;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+  margin-bottom: 10%;
+}
+
+.list {
+  background-color: #FFF;
+  padding: 5% 5%;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+  margin-bottom: 10%;
+}
+
+
+li {
+  text-align: left;
+  margin-bottom: 9%;
+  font-size: 1.2rem;
+  color: rgb(121, 120, 120);
+}
+
+.checkbox {
+  margin-right: 7%;
+}
+
+.newTask {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 80%;
+  border:none;
+}
+
+.newTask:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(138, 113, 207);
+}
+
+.button {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  border: none;
+  font-size: 1.4rem;
+  background-color: rgb(138, 113, 207);
+  color: #FFF;
+  cursor: pointer;
+}
+
+input[type=checkbox]:checked + label.strike {
+  text-decoration: line-through;
+  text-decoration-color: rgb(138, 113, 207);
+}
